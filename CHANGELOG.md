@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jakewan/semantic-release-sandbox/compare/1.0.1...1.1.0) (2021-06-22)
+
+
+### Features
+
+* Introduce feature 2 ([508f253](https://github.com/jakewan/semantic-release-sandbox/commit/508f2532145c57b6d8dd0d8a29e73de44b5bb715))
+
 ## [1.0.1](https://github.com/jakewan/semantic-release-sandbox/compare/1.0.0...1.0.1) (2021-06-22)
 
 
