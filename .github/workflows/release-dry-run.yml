@@ -3,8 +3,7 @@ name: Semantic Release Dry Run
 on:
   push:
     branches-ignore:
-      - v*
-      - main
+      - v[0-9]+
 
 jobs:
   release-dry-run:
