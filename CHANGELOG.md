@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jakewan/semantic-release-sandbox/compare/1.1.0...1.2.0) (2021-06-22)
+
+
+### Features
+
+* Port Feature 3 from v2 ([ed3f5e6](https://github.com/jakewan/semantic-release-sandbox/commit/ed3f5e613334422eb95f121a4fcede6be1a4f4cc))
+
 # [1.1.0](https://github.com/jakewan/semantic-release-sandbox/compare/1.0.1...1.1.0) (2021-06-22)
 
 
