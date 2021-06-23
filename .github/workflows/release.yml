@@ -9,8 +9,6 @@ jobs:
   release:
     name: Semantic Release
     runs-on: ubuntu-latest
-    env:
-      DEBUG: semantic-release:*
     steps:
       - uses: technote-space/auto-cancel-redundant-workflow@v1
 
@@ -24,3 +22,4 @@ jobs:
           semantic_version: 17.4.x
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEBUG: semantic-release:*
