@@ -9,6 +9,8 @@ jobs:
   release-dry-run:
     name: Semantic Release - Dry Run
     runs-on: ubuntu-latest
+    env:
+      DEBUG: semantic-release:*
     steps:
       - uses: technote-space/auto-cancel-redundant-workflow@v1
 
