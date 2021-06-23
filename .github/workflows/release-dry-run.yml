@@ -9,6 +9,8 @@ jobs:
   release-dry-run:
     name: Semantic Release - Dry Run
     runs-on: ubuntu-latest
+    env:
+      DEBUG: semantic-release:github
     steps:
       - uses: technote-space/auto-cancel-redundant-workflow@v1
 
@@ -30,4 +32,3 @@ jobs:
           dry_run: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEBUG: semantic-release:github
